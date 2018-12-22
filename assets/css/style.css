@@ -1,8 +1,41 @@
-h1{
+form {
+    width: 90%;
+    text-align: left;
+}
+
+#scoreBoard {
+    display: none;
+    border: 2px solid;
+    border-radius: 12px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background: lightblue;
+}
+
+#header {
     background-color: yellow;
     text-align: center;
     color: blue;
+    border: 2px solid black;
+    height: 5rem;
+    line-height: 2;
+    border-radius: 12px;
 }
 
+h2  {
+    /* text-align: center; */
+    color: blue;
+}
+
+#radioq1 {
+    text-align: center;
+}
+ 
+#submit {margin: 3%;width: 150px;height: 3rem;background: lightblue;font-size: 1.5rem;box-shadow: 3px 3px 3px;}
+
+#timeDiv {
+    text-align: center;
+}
 
 

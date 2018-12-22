@@ -1,64 +1,66 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./index_files/bootstrap.min.css">
-
-    <link rel="stylesheet" href="./index_files/all.css">
-
-
-    <link rel="stylesheet" href="./index_files/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Trivia Game</title>
 </head>
+
 <body>
     <h1 id="header">TriviaGame</h1>
-    <div id="timerDiv">
-        <h2>Time Remaining:<span id="timer"></span></h2>
+
+    <div id="scoreBoard">
+        <h3>Correct Answers:<span id="correctAns">0</span></h3>
+        <h3>Wrong Answers:<span id="wrongAns">0</span></h3>
     </div>
 
-    <form action="file:///C:/Users/Hesal/Desktop/Bootcamp/Trivia-Game/post">
-        <h2 id="q1">question 1</h2>
-        <input type="radio" name="q1" value="a1">
-        <input type="radio" name="q1" value="a2">
-        <input type="radio" name="q1" value="a3">
-        <h2 id="q2">question 2</h2>
-        <input type="radio" name="q2" value="a1">
-        <input type="radio" name="q2" value="a2">
-        <input type="radio" name="q2" value="a3">
-        <h2 id="q3">question 3</h2>
-        <input type="radio" name="q3" value="a1">
-        <input type="radio" name="q3" value="a2">
-        <input type="radio" name="q3" value="a3">
-        <h2 id="q4">question 4</h2>
-        <input type="radio" name="q4" value="a1">
-        <input type="radio" name="q4" value="a2">
-        <input type="radio" name="q4" value="a3">
-        <h2 id="q5">question 5</h2>
-        <input type="radio" name="q5" value="a1">
-        <input type="radio" name="q5" value="a2">
-        <input type="radio" name="q5" value="a3">
-        <h2 id="q6">question 6</h2>
-        <input type="radio" name="q6" value="a1">
-        <input type="radio" name="q6" value="a2">
-        <input type="radio" name="q6" value="a3">
-        <h2 id="q7">question 7</h2>
-        <input type="radio" name="q7" value="a1">
-        <input type="radio" name="q7" value="a2">
-        <input type="radio" name="q7" value="a3">
-        <h2 id="q8">question 8</h2>
-        <input type="radio" name="q8" value="a1">
-        <input type="radio" name="q8" value="a2">
-        <input type="radio" name="q8" value="a3">
-        <h2 id="q9">question 9</h2>
-        <input type="radio" name="q9" value="a1">
-        <input type="radio" name="q9" value="a2">
-        <input type="radio" name="q9" value="a3">
-        <h2 id="q10">question 10</h2>
-        <input type="radio" name="q10" value="a1">
-        <input type="radio" name="q10" value="a2">
-        <input type="radio" name="q10" value="a3">
+    <div id="timerDiv">
+        <h2 id="timeDiv">Time Remaining:<span id="timer">60</span></h2>
+    </div>
+
+    <form>
+        <h3 id="q1">When did the Liberty Bell get its name?</h3>
+        <input type="radio" name="q1" value="a">when it was made, in 1701 <br>
+        <input type="radio" name="q1" value="b">when it rang on July 4, 1776 <br>
+        <input type="radio" name="q1" value="c">in the 19th century, when it became a symbol of the  abolition of slavery <br>
+        
+        <h3 id="q1">When did the Liberty Bell get its name?</h3>
+        <input type="radio" name="q2" value="a">when it was made, in 1701 <br>
+        <input type="radio" name="q2" value="b">when it rang on July 4, 1776 <br>
+        <input type="radio" name="q2" value="c">in the 19th century, when it became a symbol of the  abolition of slavery <br>
+        
+        <h3 id="q1">When did the Liberty Bell get its name?</h3>
+        <input type="radio" name="q3" value="a">when it was made, in 1701 <br>
+        <input type="radio" name="q3" value="b">when it rang on July 4, 1776 <br>
+        <input type="radio" name="q3" value="c">in the 19th century, when it became a symbol of the  abolition of slavery <br>
+        
+        <h3 id="q1">When did the Liberty Bell get its name?</h3>
+        <input type="radio" name="q4" value="a">when it was made, in 1701 <br>
+        <input type="radio" name="q4" value="b">when it rang on July 4, 1776 <br>
+        <input type="radio" name="q4" value="c">in the 19th century, when it became a symbol of the  abolition of slavery <br>
+        
+        <h3 id="q1">When did the Liberty Bell get its name?</h3>
+        <input type="radio" name="q5" value="a">when it was made, in 1701 <br>
+        <input type="radio" name="q5" value="b">when it rang on July 4, 1776 <br>
+        <input type="radio" name="q5" value="c">in the 19th century, when it became a symbol of the  abolition of slavery <br>
+            
+        <button id="submit">Submit</button>
+
+
+
+
+
+
+
+
     </form>
 
+    <script src="assets/javascript/game.js"></script>
+</body>
 
-</body></html>
+</html>
