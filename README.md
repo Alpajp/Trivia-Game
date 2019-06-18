@@ -1,6 +1,6 @@
 # Trivia-Game
 
-In this assignment, I created an app for Trivia game using JavaScript for the logic and jQuery to manipulate HTML. I laidout this app with valid HTML and stylish CSS.
+This is a Trivia game app. It was created using JavaScript for the logic and jQuery to manipulate HTML. I laidout this app with valid HTML and stylish CSS.
 
 ScreenShot
 
