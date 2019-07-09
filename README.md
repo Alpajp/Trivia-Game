@@ -2,6 +2,11 @@
 
 This is a Trivia game app. It was created using JavaScript for the logic and jQuery to manipulate HTML. I laidout this app with valid HTML and stylish CSS.
 
+Gameplay
+
+
+This web game displays 10 questions based on history, player has 60 seconds to answer the questions, player can choose a correct answer from multiple choice. If the time runs out, ou can refresh the screen and same questions will display.
+
 This is a link to Trivia Game.  https://alpajp.github.io/Trivia-Game/
 
 ScreenShot
